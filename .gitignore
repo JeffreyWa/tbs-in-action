@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/chat-ui/node_modules
+/chat-ui/.pnp
+.pnp.js
+
+# testing
+/chat-ui/coverage
+
+# production
+#########/build
+
+# misc
+/chat-ui/.DS_Store
+/chat-ui/.env.local
+/chat-ui/.env.development.local
+/chat-ui/.env.test.local
+/chat-ui/.env.production.local
+
+/chat-ui/npm-debug.log*
+/chat-ui/yarn-debug.log*
+/chat-ui/yarn-error.log*
+
+
+HELP.md
+/chat-server/target/
+!/chat-server/.mvn/wrapper/maven-wrapper.jar
+!/chat-server/**/src/main/**
+!/chat-server/**/src/test/**
+
+### STS ###
+/chat-server/.apt_generated
+/chat-server/.classpath
+/chat-server/.factorypath
+/chat-server/.project
+/chat-server/.settings
+/chat-server/.springBeans
+/chat-server/.sts4-cache
+
+### IntelliJ IDEA ###
+/chat-server/.idea
+/chat-server/*.iws
+/chat-server/*.iml
+/chat-server/*.ipr
+
+### NetBeans ###
+/chat-server/nbproject/private/
+/chat-server/nbbuild/
+/chat-server/dist/
+/chat-server/nbdist/
+/chat-server/.nb-gradle/
+/chat-server/build/
+
+### VS Code ###
+/chat-server/.vscode/
